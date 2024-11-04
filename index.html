@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı Döviz Kuru Uygulaması</title>
+    <link rel="stylesheet" href="döviz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Canlı Döviz Kuru</h1>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Miktar" min="0">
+            <select id="fromCurrency">
+                <option value="USD">USD - Dolar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="TRY">TRY - Türk Lirası</option>
+            </select>
+            <select id="toCurrency">
+                <option value="USD">USD - Dolar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="TRY">TRY - Türk Lirası</option>
+            </select>
+            <button id="convertBtn">Hesapla</button>
+            <div id="result">Sonuç burada görünecek</div>
+        </div>
+    </div>
+    <script src="döviz.js"></script>
+</body>
+</html>
